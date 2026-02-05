@@ -99,10 +99,22 @@ function face(x,y){
 for (let i = 0; i < num; i++) {
   if (i != 0) {
   }
-  let c = color(random(255), random(255), random(255));
+  // let c = color(random(255), random(255), random(255));
+  // fill(c);
+  //   rect(0, height/num * i, 1000, 200);
+  // }
+   let c = color(random(135), random(130), random(130));
+//  let c = color(
+//   random(180, 150),
+//   random(180, 150),
+//   random(180, 150),
+  
+// );
+
   fill(c);
-    rect(0, height/num * i, 1000, 200);
+    rect(0, (height*2)/num * i, 1000, 100);
   }
+  pop();
   pop();
     
   //face (inner and outer)
